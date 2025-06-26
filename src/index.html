@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArtistsHub</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
 
-    <main>
-      <h1>ArtistsHub</h1>
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtistsHub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="css/components/header.css">
+  <link rel="stylesheet" href="css/components/hero-section.css">
+  <link rel="stylesheet" href="css/components/artists-section.css">
+  <link rel="stylesheet" href="css/components/about-us-section.css">
+  <link rel="stylesheet" href="css/components/feedback-section.css">
+  <link rel="stylesheet" href="css/components/artist-details-modal.css">
+  <link rel="stylesheet" href="css/components/footer.css">
+</head>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+<body>
+  <header>
+    <template load="partials/header.html"></template>
+  </header>
+  <main>
+    <template load="partials/hero-section.html"></template>
+    <template load="partials/artists-section.html"></template>
+    <template load="partials/about-us-section.html"></template>
+    <template load="partials/feedback-section.html"></template>
+    <template load="partials/artist-details-modal.html"></template>
+  </main>
+  <footer>
+    <template load="partials/footer.html"></template>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+  <script src="js/partials-loader.js"></script>
+</body>
+
 </html>
