@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArtistsHub</title>
-    <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-B9kkWxtF.css">
-  </head>
-  <body>
 
-    <main>
-      <h1>ArtistsHub</h1>
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtistsHub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-B9kkWxtF.css">
+</head>
 
-  </body>
+<body>
+  <header>
+    <template load="partials/header.html"></template>
+  </header>
+  <main>
+    <template load="partials/hero-section.html"></template>
+    <template load="partials/artists-section.html"></template>
+    <template load="partials/about-us-section.html"></template>
+    <template load="partials/feedback-section.html"></template>
+    <template load="partials/artist-details-modal.html"></template>
+  </main>
+  <footer>
+    <template load="partials/footer.html"></template>
+  </footer>
+
+  <script src="js/partials-loader.js"></script>
+</body>
+
 </html>
