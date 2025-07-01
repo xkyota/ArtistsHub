@@ -1,0 +1,28 @@
+.container{
+    display: block;
+}
+.close-btn {
+    width: 14.061266899108887;
+    height: 14.061266899108887;
+    position: absolute;
+    top: 30px;  
+    right: 30px;  
+    background-color: black;
+    border: 0;
+    color: aliceblue;
+}
+.artist-details-modal-name { 
+    width: 1184;
+    height: 42;
+    gap: 16px;
+}
+.artist-name { 
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: -1%;
+    text-align: center;
+    color: aliceblue;
+    
+}
