@@ -1,47 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtistsHub</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ArtistsHub</title>
+    <!--  Modern Normalize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-  <!--  Modern Normalize-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  Styles & Syles Components-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="css/components/header.css" />
+    <link rel="stylesheet" href="css/components/hero-section.css" />
+    <link rel="stylesheet" href="css/components/artists-section.css" />
+    <link rel="stylesheet" href="css/components/about-us-section.css" />
+    <link rel="stylesheet" href="css/components/feedback-section.css" />
+    <link rel="stylesheet" href="css/components/artist-details-modal.css" />
+    <link rel="stylesheet" href="css/components/footer.css" />
 
-  <!--  Styles & Syles Components-->
-  <link rel="stylesheet" href="./css/styles.css" />
-  <link rel="stylesheet" href="css/components/header.css">
-  <link rel="stylesheet" href="css/components/hero-section.css">
-  <link rel="stylesheet" href="css/components/artists-section.css">
-  <link rel="stylesheet" href="css/components/about-us-section.css">
-  <link rel="stylesheet" href="css/components/feedback-section.css">
-  <link rel="stylesheet" href="css/components/artist-details-modal.css">
-  <link rel="stylesheet" href="css/components/footer.css">
+    <!--  Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<!--  Fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <load src="partials/header.html" />
+    <main>
+      <load src="partials/hero-section.html" />
+      <load src="partials/artists-section.html" />
+      <load src="partials/about-us-section.html" />
+      <load src="partials/feedback-section.html" />
+      <load src="partials/artist-details-modal.html" />
+    </main>
+    <footer>
+      <load src="partials/footer.html" />
+    </footer>
 
-<body>
-    <template load="partials/header.html"></template>
-  <main>
-    <template load="partials/hero-section.html"></template>
-    <template load="partials/artists-section.html"></template>
-    <template load="partials/about-us-section.html"></template>
-    <template load="partials/feedback-section.html"></template>
-    <template load="partials/artist-details-modal.html"></template>
-  </main>
-  <footer>
-    <template load="partials/footer.html"></template>
-  </footer>
-
-  <script type="module" src="./main.js"></script>
-  <script src="js/partials-loader.js"></script>
-</body>
-
+    <script type="module" src="./main.js"></script>
+    <script src="js/partials-loader.js"></script>
+  </body>
 </html>
