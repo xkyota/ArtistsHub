@@ -1,5 +1,6 @@
+@import './reset.css';
+
 body{
   background: #060307;
   font-family: "IBM Plex Sans";
 }
-@import url('./reset.css');
