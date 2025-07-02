@@ -41,7 +41,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-BPTTLRnM.css">
+    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-hAjJguZB.css">
   </head>
 
   <body>
@@ -73,10 +73,17 @@
         </div>
     </div>
 </section>
-      <div class="feedback ">
-
-
-</div>
+      <div class="feedback-section">
+    <button class="arrowLeft arrow">
+      <img class="arrow-img" src="./src/img/feedback-section/arrowLeft.png" alt="">
+    </button>
+    
+    <div class="feedback"></div>
+    
+    <button class="arrowRight arrow">
+      <img class="arrow-img" src="./src/img/feedback-section/arrowRight.png" alt="">
+    </button>
+  </div>
       <container class="container">
 <div id="artistModal" class="modal-window">
     <button class="close-btn" aria-label="Close">×</button>
@@ -148,7 +155,18 @@
     ></script>
 
     <script>
-      $("#team").owlCarousel({})
+      $("#team").owlCarousel({
+        itemsCustom: [
+          [0, 1],
+          [200, 1],
+          [700, 2],
+          [950, 3],
+          [1200, 4],
+          [1400, 4], 
+          [1600, 4],
+
+        ]
+      })
       </script>
 
     <script src="js/partials-loader.js"></script>
