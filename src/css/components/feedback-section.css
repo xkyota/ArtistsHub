@@ -1,3 +1,22 @@
+.feedback-section{
+    display: flex;
+    text-align: center;
+}
+.arrow{
+    width: 48px;
+    height: 48px;
+    margin-top: 270px;
+
+}
+.arrowLeft{
+    margin-left: 50px;
+}
+.arrowRight{
+    margin-right: 50px;
+}
+.arrow-img{
+    z-index: 1;
+}
 .feedback {
     width: 1312px;
     height: 620px;
@@ -61,7 +80,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: yellow;
+    background: #764191;
     width: var(--fill, 0%);
     z-index: 1;
     clip-path: inherit;
