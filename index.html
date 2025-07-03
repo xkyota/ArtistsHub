@@ -41,7 +41,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-dy388lqi.css">
+    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-CfLqsMme.css">
   </head>
 
   <body>
@@ -100,7 +100,46 @@
       <img class="arrow-img" src="./src/img/feedback-section/arrowRight.png" alt="">
     </button>
   </div>
-      
+      <div id="artistModal" class="modal-window">
+    <div class="contain">
+        <div class="artist-details-modal-name">
+            <h2 class="artist-name"></h2>
+            <button class="close-btn" aria-label="Close">×</button>
+        </div>
+        <div class="artist-details-modal-info">
+            <div class="artist-cover">
+                <img class="artist-image" src="" alt="">
+            </div>
+            <div class="artist-meta">
+                <div class="artist-grid">
+                    <div>
+                        <span class="label">Years active</span>
+                        <span class="value artist-years-active"></span>
+                    </div>
+                    <div>
+                        <span class="label">Sex</span>
+                        <span class="value artist-sex"></span>
+                    </div>
+                    <div>
+                        <span class="label">Members</span>
+                        <span class="value artist-members"></span>
+                    </div>
+                    <div>
+                        <span class="label">Country</span>
+                        <span class="value artist-country"></span>
+                    </div>
+                </div>
+                <div class="artist-bio">
+                    <h3 class="label">Biography</h3>
+                    <p class="artist-bio-text"></p>
+                </div>
+                <div class="artist-genres">
+                    <button class="ganre-btn"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </main>
     <footer>
       
