@@ -1,51 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ArtistsHub</title>
 
-    <!--  Modern Normalize-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArtistsHub</title>
 
-    <!--  Styles & Syles Components-->
+  <!--  Modern Normalize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--  Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-      rel="stylesheet"
-    />
+  <!--  Styles & Syles Components-->
 
-    <!-- owl Carousel  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
-      integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <!--  Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
-      integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-CfLqsMme.css">
-  </head>
+  <!-- slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-  <body>
-    <header>
+  <!-- owl Carousel  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
+    integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/ArtistsHub/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/ArtistsHub/assets/index-CfLqsMme.css">
+</head>
+
+<body>
+  <header>
   <div class="container-header">
     <img src="/ArtistsHub/assets/logo-CRrQCJYM.svg" alt="Website logo">
 
@@ -56,8 +46,8 @@
     </ul>
   </div>
 </header>
-    <main>
-      <section class="hero-section">
+  <main>
+    <section class="hero-section">
     <div class="hero-container">
         <div class="text-div">
             <h2 class="hero-title">Discover Your Next Favorite Artist Today</h2>
@@ -74,8 +64,8 @@
         <img src="/ArtistsHub/assets/artists-Chs-WW-P.png" alt="">
     </div>
 </section>
-      
-      <section class="about-artists">
+    
+    <section class="about-artists">
     <div class="container__about">
         <div class="data__about">
             <div class="block1__about">
@@ -89,7 +79,7 @@
         </div>
     </div>
 </section>
-      <div class="feedback-section">
+    <div class="feedback-section">
     <button class="arrowLeft arrow">
       <img class="arrow-img" src="./src/img/feedback-section/arrowLeft.png" alt="">
     </button>
@@ -100,7 +90,7 @@
       <img class="arrow-img" src="./src/img/feedback-section/arrowRight.png" alt="">
     </button>
   </div>
-      <div id="artistModal" class="modal-window">
+    <div id="artistModal" class="modal-window">
     <div class="contain">
         <div class="artist-details-modal-name">
             <h2 class="artist-name"></h2>
@@ -140,42 +130,41 @@
         </div>
     </div>
 </div>
-    </main>
-    <footer>
-      
-    </footer>
+  </main>
+  <footer>
+    
+  </footer>
 
-    <!-- JQuery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- owlCarousel  -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
-      integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <!-- owlCarousel  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    integrity="sha512-9CWGXFSJ+/X0LWzSRCZFsOPhSfm6jbnL+Mpqo0o8Ke2SYr8rCTqb4/wGm+9n13HtDE1NQpAEOrMecDZw4FXQGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script>
-      $("#team").owlCarousel({
-        itemsCustom: [
-          [0, 1],
-          [200, 1],
-          [700, 2],
-          [950, 3],
-          [1200, 4],
-          [1400, 4], 
-          [1600, 4],
+  <script>
+    $("#team").owlCarousel({
+      itemsCustom: [
+        [0, 1],
+        [200, 1],
+        [700, 2],
+        [950, 3],
+        [1200, 4],
+        [1400, 4],
+        [1600, 4],
 
-        ]
-      })
-      </script>
+      ]
+    })
+  </script>
+  
+  <!-- slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/script.js"></script>
 
-    <script src="js/partials-loader.js"></script>
-  </body>
+  <script src="js/partials-loader.js"></script>
+</body>
+
 </html>
