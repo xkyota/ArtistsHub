@@ -1,0 +1,38 @@
+.hero-section {
+  background: linear-gradient(#23132b);
+}
+.hero-container {
+  width: 1312px;
+  height: 900px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+.text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.hero-title {
+  color: #ffffff;
+  font-size: 84px;
+  font-family: 'Epilogue', sans-serif;
+}
+.hero-paragraph {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'IBM Plex Sans';
+  width: 640px;
+}
+.hero-btn {
+  width: 206px;
+  height: 47px;
+  border-radius: 12px;
+  background-color: #764191;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+}
