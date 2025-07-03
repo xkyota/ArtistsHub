@@ -1,0 +1,151 @@
+/* Общая модалка */
+.modal-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 1000;
+    padding-top: 60px;
+    overflow-y: auto;
+}
+
+/* Контейнер контента */
+.contain {
+    width: 1184px;
+    background-color: #060307;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Название и кнопка закрытия */
+.artist-details-modal-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.artist-name {
+    flex: 1;
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: -1%;
+    text-align: center;
+
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #aaa;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #fff;
+}
+
+/* Фото */
+.artist-details-modal-info {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Фото */
+.artist-cover {
+    width: 576px;
+    height: 354px;
+
+
+}
+
+.artist-cover img.artist-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Правая часть с текстом */
+.artist-meta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Сетка с инфой */
+.artist-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    gap: 16px;
+}
+
+.label {
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.value {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+
+
+.artist-bio-text {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+/* Жанры */
+.artist-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.ganre-btn {
+    border: 1px solid #666;
+    background-color: #060307;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: default;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.label, .value {
+    display: block;
+}
