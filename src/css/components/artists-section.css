@@ -1,0 +1,128 @@
+.container-artist {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.artist-text-wrapper {
+  margin-top: 112px;
+  margin-bottom: 80px;
+}
+
+.block-artist-list-item__wrapper-text {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.block-artist-list-item-wrapper-text__span {
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0);
+  padding: 5px 10px 5px 10px;
+  margin-right: 16px;
+}
+
+.block-artist-list-item__title {
+  color: rgb(255, 255, 255);
+  font-family: "Epilogue", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1%;
+}
+
+.artist-text-wrapper__paragraph {
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 8px;
+}
+
+.artist-title-wrapper__title {
+  color: rgb(255, 255, 255);
+  font-family: "Epilogue", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1%;
+  width: 508px;
+}
+
+.block-artist-list-item__paragraph {
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 150%;
+  width: 574px;
+  height: 54px;
+}
+
+.block-artist-list-item__button {
+  border: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 24px;
+  display: flex;
+  gap: 17px;
+}
+
+.block-artist-list-wrapper__icon {
+  border-radius: 17px;
+}
+
+.block-artist__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.block-artist-list__item {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 574px;
+  height: 620px;
+}
+
+.block-artist-wrapper {
+  margin-left: 510px;
+}
+
+.block-artist-wrapper__button {
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px 0px rgba(6, 3, 7, 0.05), inset 0px -2px 1px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 1px rgba(6, 3, 7, 0.15), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.25), inset 0px 32px 24px 0px rgba(255, 255, 255, 0.05);
+  background: rgb(118, 65, 145);
+  width: 170px;
+  height: 47px;
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  gap: 12px;
+}
+
+.block-artist-wrapper__icon {
+  margin-top: -10px;
+}
