@@ -1,13 +1,21 @@
 .feedback-section{
     display: flex;
     text-align: center;
+    width: 1312px;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 .arrow{
     width: 48px;
     height: 48px;
-    margin-top: 270px;
+
+    color: #FFF;
+   
+    border-radius: 4px;
 
 }
+
+
 .arrowLeft{
     margin-left: 50px;
 }
@@ -107,3 +115,5 @@
     padding-top: 32px;
 
 }
+
+
