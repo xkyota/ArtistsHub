@@ -1,21 +1,30 @@
 .feedback-section{
     display: flex;
     text-align: center;
-    width: 1312px;
+    flex-direction: column;
     padding-left: 64px;
     padding-right: 64px;
+}
+.feedbackContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .arrow{
     width: 48px;
     height: 48px;
-
     color: #FFF;
-   
-    border-radius: 4px;
-
+    border-radius: 4px; 
 }
-
-
+.item-leave{
+  background: #7D4699;
+  padding: 10px 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-bottom: 30px;
+} 
 .arrowLeft{
     margin-left: 50px;
 }
@@ -26,34 +35,23 @@
     z-index: 1;
 }
 .feedback {
-    width: 1312px;
-    height: 620px;
-    margin: 0 auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+  margin: 0 auto;
 }
-
 .feedback-item {
-    width: 800px;
-    height: 350px;
-    margin-left: 280px;
 
+    height: 350px;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-    padding: 1rem;
-    box-sizing: border-box;
 }
-
+.item-coment{
+    width: 768px;
+}
 .stars {
     display: flex;
     gap: 5px;
@@ -76,12 +74,8 @@
       32% 57%,
       2% 35%,
       39% 35%
-    );
-
-      
-      
+    );   
   }
-  
   .star::before {
     content: "";
     position: absolute;
@@ -93,7 +87,6 @@
     z-index: 1;
     clip-path: inherit;
   }
-  
 .item-coment {
     color: #FFF;
     font-family: "IBM Plex Sans";
@@ -104,7 +97,6 @@
     padding-top: 55px;
     text-align: center;
 }
-
 .item-person {
     color: #FFF;
     font-family: "IBM Plex Sans";
@@ -113,7 +105,25 @@
     font-weight: 600;
     line-height: 150%;
     padding-top: 32px;
-
 }
-
-
+.swiper {
+  max-width: 80%;
+  height: 300px;
+}
+.swiper-button-prev:after{
+  content: '';
+  background: url(/img/feedback-section/arrowLeft.png)no-repeat center/cover;
+  position: relative;
+  z-index: 10;
+  width: 49px;
+  height: 49px;
+}
+.swiper-button-next:after{
+  content: '';
+  background: url(/img/feedback-section/arrowLeft.png)no-repeat center/cover;
+  rotate: 180deg;
+  position: relative;
+  z-index: 10;
+  width: 49px;
+  height: 49px;
+}
