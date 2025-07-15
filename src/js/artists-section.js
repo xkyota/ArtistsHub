@@ -1,3 +1,5 @@
+export const artistIDs = [];
+
 const artistList = document.querySelector('.block-artist__list');
 
 fetch('https://sound-wave.b.goit.study/api/artists')
@@ -11,6 +13,8 @@ fetch('https://sound-wave.b.goit.study/api/artists')
     const artists = data.artists || data;
 
     artists.forEach(artist => {
+      artistIDs.push(artist._id);
+
       const genresMarkup = artist.genres
         .map(
           genre =>
@@ -28,16 +32,16 @@ fetch('https://sound-wave.b.goit.study/api/artists')
         `
         <li class="block-artist-list__item">
           <div class="block-artist-list-item__wrapper-icon">
-            <img src="${artist.strArtistThumb}" alt="${artist.strArtist}" class="block-artist-list-wrapper__icon" width="574"
-              height="394">
+            <img src="${artist.strArtistThumb}" alt="${artist.strArtist}" class="block-artist-list-wrapper__icon" width="574" height="394">
           </div>
           <div class="block-artist-list-item__wrapper-text">
             ${genresMarkup}
           </div>
           <h2 class="block-artist-list-item__title">${artist.strArtist}</h2>
           <p class="block-artist-list-item__paragraph">${bioShort}</p>
-          <button class="block-artist-list-item__button">Learn More <img
-              src="/img/artist-section/arrow-right.svg" alt="arrow-right"></button>
+          <button class="block-artist-list-item__button" data-id="${artist._id}">
+            Learn More <img src="/img/artist-section/arrow-right.svg" alt="arrow-right">
+          </button>
         </li>
       `
       );

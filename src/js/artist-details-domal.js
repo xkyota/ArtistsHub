@@ -1,59 +1,51 @@
-const body = document.body;
 const modal = document.getElementById('artistModal');
-const loader = document.getElementById('loader');
-const closeBtn = document.querySelector('.close-btn');
+const closeBtn = modal?.querySelector('.close-btn');
 
-document.querySelectorAll('.block-artist-list-item__button').forEach(button => {
-  button.addEventListener('click', async event => {
+document.addEventListener('click', async event => {
+  const btn = event.target.closest('.block-artist-list-item__button');
+  if (!btn) return;
 
-    loader.style.display = 'block';
-    modal.style.display = 'flex';
-    body.classList.add('no-scroll');
+  const id = btn.dataset.id;
+  if (!id) {
+    console.warn('У кнопки нет data-id');
+    return;
+  }
 
-    const li = button.closest('li');
+  try {
+    const res = await fetch(`https://sound-wave.b.goit.study/api/artists/${id}`);
+    const data = await res.json();
+    const artist = data.artists?.[0] || data;
 
-    const title = li.querySelector('.block-artist-list-item__title')?.textContent.trim();
-    const description = li.querySelector('.block-artist-list-item__paragraph')?.textContent.trim();
-    const image = li.querySelector('img')?.src;
-    const genres = Array.from(li.querySelectorAll('.block-artist-list-item-wrapper-text__span'))
-      .map(span => span.textContent.trim());
+    if (!artist || !artist.strArtist) {
+      console.warn('Нет данных по артисту:', data);
+      return;
+    }
+    document.querySelector('.artist-name').textContent = artist.strArtist || '';
+    document.querySelector('.artist-bio-text').textContent = artist.strBiographyEN || '';
+    document.querySelector('.artist-image').src = artist.strArtistThumb || '';
+    document.querySelector('.artist-years-active').textContent = artist.intFormedYear || '—';
+    document.querySelector('.artist-sex').textContent = artist.strGender || '—';
+    document.querySelector('.artist-members').textContent = artist.intMembers || '—';
+    document.querySelector('.artist-country').textContent = artist.strCountry || '—';
 
-    await new Promise(resolve => setTimeout(resolve, 500));
-
-    document.querySelector('.artist-name').textContent = title;
-    document.querySelector('.artist-bio-text').textContent = description;
-    document.querySelector('.artist-image').src = image;
-
-    const genreContainer = document.querySelector('.artist-genres');
-    genreContainer.innerHTML = '';
-    genres.forEach(genre => {
-      const btn = document.createElement('button');
-      btn.className = 'ganre-btn';
-      btn.textContent = genre;
-      genreContainer.appendChild(btn);
+    const genresContainer = document.querySelector('.artist-genres');
+    genresContainer.innerHTML = '';
+    artist.genres?.forEach(genre => {
+      const genreBtn = document.createElement('button');
+      genreBtn.className = 'ganre-btn';
+      genreBtn.textContent = genre;
+      genresContainer.appendChild(genreBtn);
     });
 
-    loader.style.display = 'none';
-  });
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+
+  } catch (error) {
+    console.error('Ошибка при загрузке данных об артисте:', error);
+  }
 });
 
-closeBtn.addEventListener('click', () => {
+closeBtn?.addEventListener('click', () => {
   modal.style.display = 'none';
-  body.classList.remove('no-scroll');
-});
-closeBtn.addEventListener('click', () => {
-  modal.style.display = 'none';
-  body.classList.remove('no-scroll');
-
-  document.querySelector('.artist-name').textContent = '';
-  document.querySelector('.artist-bio-text').textContent = '';
-  document.querySelector('.artist-image').src = '';
-
-  document.querySelector('.artist-years-active').textContent = '';
-  document.querySelector('.artist-sex').textContent = '';
-  document.querySelector('.artist-members').textContent = '';
-  document.querySelector('.artist-country').textContent = '';
-
-  const genreContainer = document.querySelector('.artist-genres');
-  genreContainer.innerHTML = '';
+  document.body.style.overflow = '';
 });
