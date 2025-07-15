@@ -26,6 +26,14 @@
 .block2__about {
     flex: 1;
     max-width: 50%;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.block2__about.animated {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .img__about {
@@ -34,29 +42,42 @@
     max-width: 640px;
     border-radius: 16px;
     object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.6s ease-out;
+}
+
+.img__about.added {
+    opacity: 1;
 }
 
 .mini_icon__about {
     width: 80px;
     height: 80px;
+    transition-delay: 0.1s;
 }
 
 .title__about {
-    font-family: Epilogue;
+    font-family: 'Epilogue', sans-serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 120%;
     letter-spacing: -1%;
     color: #FFFFFF;
+    transition-delay: 0.2s;
 }
 
 .description__about {
-    font-family: IBM Plex Sans;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     letter-spacing: 0%;
     color: #FFFFFF;
+    transition-delay: 0.3s;
+}
+
+.description__about__highlight::selection {
+    text-decoration: underline;
 }
 
 @media (max-width: 1024px) {

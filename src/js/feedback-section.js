@@ -30,8 +30,7 @@ fetch('https://sound-wave.b.goit.study/api/feedbacks')
       pagination: {
         el: '.swiper-pagination',
       },
-    
-      // Navigation arrows
+      slidesPerView: 1,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -60,29 +59,6 @@ function fillStars(container, rating) {
 
     star.style.setProperty('--fill', `${fillPercent}%`);
   });
-}
-
-function isValidFeedback(feedback) {
-  if (!feedback.descr || !feedback.name) return false;
-
-  const description = feedback.descr.trim();
-  const wordCount = description.split(/\s+/).length;
-  const charCount = description.length;
-
-  const onlyNormalChars = /^[a-zA-Zа-яА-ЯіїєґІЇЄҐ0-9\s.,!?'"()\-–—…]+$/.test(
-    description
-  );
-  const noSpamWords =
-    !/(test|asdf|qwer|123|lorem|fake|gghhh|ддд|аааа|яяяя)/i.test(description);
-  const ratingIsHigh = feedback.rating >= 4;
-
-  return (
-    wordCount >= 5 &&
-    charCount >= 30 &&
-    onlyNormalChars &&
-    noSpamWords &&
-    ratingIsHigh
-  );
 }
 
 function isValidFeedback(feedback) {
