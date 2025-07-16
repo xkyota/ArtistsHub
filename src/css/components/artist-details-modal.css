@@ -90,6 +90,9 @@
     letter-spacing: 0%;
 }
 .artist-bio-text {
+    margin-top: 15px;
+    height: 400px;
+    overflow-y: scroll;
     font-family: 'IBM Plex Sans';
     font-weight: 400;
     font-size: 16px;
