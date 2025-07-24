@@ -1,0 +1,76 @@
+body {
+  background-color: #0A0A0A;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 40px;
+}
+
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.album-card {
+  background-color: #1A1A1A;
+  border-radius: 12px;
+  width: 600px;
+  padding: 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  border-bottom: 2px;
+  padding-bottom: 8px;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.track-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 12px;
+  height: 32px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.track-row:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.track-name {
+  flex: 2;
+  font-size: 14px;
+}
+
+.track-time {
+  flex: 1;
+  text-align: right;
+  font-size: 14px;
+}
+
+.track-row a img {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.track-row a img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
