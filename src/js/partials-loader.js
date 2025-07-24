@@ -12,13 +12,13 @@
   }
 
   const scripts = [
-    "js/about-us-section.js",
-    "js/artist-details-domal.js",
-    "js/artists-section.js",
-    "js/feedback-section.js",
-    "js/footer.js",
-    "js/header.js",
-    "js/hero-section.js",
+    "./js/about-us-section.js",
+    "./js/artist-details-domal.js",
+    "./js/artists-section.js",
+    "./js/feedback-section.js",
+    "./js/footer.js",
+    "./js/header.js",
+    "./js/hero-section.js",
   ];
 
   for (const src of scripts) {
