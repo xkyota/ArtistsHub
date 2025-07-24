@@ -54,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  
 }
 
 .footer-bottom p {
@@ -62,13 +62,15 @@
   color: #ffffff;
 }
 
-.footer-socials a {
+.footer-socials{
   margin-left: 20px;
-   text-decoration: none;
+  text-decoration: none;
+  display: flex;
+  gap: 27px;
 }
 
 .footer-socials img {
-    
+
   width: 24px;
   height: 24px;
   transition: opacity 0.3s ease;
