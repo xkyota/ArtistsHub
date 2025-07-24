@@ -1,5 +1,6 @@
 .hero-section {
   background: linear-gradient(#23132b);
+  
 }
 .hero-container {
   width: 1312px;
@@ -35,4 +36,33 @@
   display: flex;
   align-items: center;
   padding-left: 28px;
+}
+
+@media (max-width:768px){
+  .hero-section {
+    padding-top: 100px;
+    background: linear-gradient(#23132b);
+    height:1500px
+  }
+  .hero-container {
+    max-width: 768px;
+    max-height: 995px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .text-div {
+    padding-right: 80px;
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 378px){
+  .hero-section {
+    padding-top: 100px;
+    background: linear-gradient(#23132b);
+    height: 1500px;
+  }
 }
