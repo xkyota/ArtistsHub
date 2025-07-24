@@ -40,7 +40,7 @@ function renderArtists(artists, container) {
         <h2 class="block-artist-list-item__title">${artist.strArtist}</h2>
         <p class="block-artist-list-item__paragraph">${bioShort}</p>
         <button class="block-artist-list-item__button" data-id="${artist._id}">
-          Learn More <img src="/img/artist-section/arrow-right.svg" alt="arrow-right">
+          Learn More <img src="./img/artist-section/arrow-right.svg" alt="arrow-right">
         </button>
       </li>
       `
