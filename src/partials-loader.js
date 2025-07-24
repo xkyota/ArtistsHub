@@ -1,31 +1,29 @@
 (async () => {
-  const templates = document.querySelectorAll("template[load]");
+  const partials = document.querySelectorAll("load[src]");
 
-  // Завантажуємо шаблони послідовно
-  for (const el of templates) {
-    const url = el.getAttribute("load");
+  for (const el of partials) {
+    const url = el.getAttribute("src");
     const res = await fetch(url);
     const html = await res.text();
-    el.innerHTML = html;
-    const clone = el.content.cloneNode(true);
-    document.body.appendChild(clone);
+    const container = document.createElement("div");
+    container.innerHTML = html;
+    el.replaceWith(...container.childNodes);
   }
 
   const scripts = [
-    "./js/about-us-section.js",
-    "./js/artist-details-domal.js",
-    "./js/artists-section.js",
-    "./js/feedback-section.js",
-    "./js/footer.js",
     "./js/header.js",
     "./js/hero-section.js",
+    "./js/artists-section.js",
+    "./js/artist-details-domal.js",
+    "./js/about-us-section.js",
+    "./js/feedback-section.js",
+    "./js/footer.js",
   ];
 
   for (const src of scripts) {
     await new Promise((resolve, reject) => {
       const script = document.createElement("script");
       script.src = src;
-      script.async = false;
       script.type = "module";
       script.onload = resolve;
       script.onerror = reject;
