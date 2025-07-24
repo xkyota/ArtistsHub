@@ -1,0 +1,414 @@
+<body>
+  <h1>Albums</h1>
+  <section class="albums">
+
+    <div class="album-card">
+      <h2 class="album-title">Ghost Gardens</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Tremor</span>
+          <span class="track-time">2:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lethal Poetry</span>
+          <span class="track-time">3:32</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lost Inside</span>
+          <span class="track-time">3:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Flutter</span>
+          <span class="track-time">1:49</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Fragile Skin Of Me</span>
+          <span class="track-time">2:15</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Glory</span>
+          <span class="track-time">2:56</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Black Lotus</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Frozen In Time</span>
+          <span class="track-time">3:33</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Clouded</span>
+          <span class="track-time">3:10</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+          </div>
+          <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Cherry Blossom Nightmare</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Fragile Skin Of Me</span>
+          <span class="track-time">2:15</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Pixelated Obvilion</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Tremor</span>
+          <span class="track-time">2:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lethal Poetry</span>
+          <span class="track-time">3:32</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lost Inside</span>
+          <span class="track-time">3:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Glory</span>
+          <span class="track-time">2:56</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Black Lotus</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Frozen In Time</span>
+          <span class="track-time">3:33</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Clouded</span>
+          <span class="track-time">3:10</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+          </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Loud Fantasy, Quiet Reality</h2>
+      <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Cherry Blossom Nightmare</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Fragile Skin Of Me</span>
+          <span class="track-time">2:15</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="album-card">
+      <h2 class="album-title">Pixelated Obvilion</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Tremor</span>
+          <span class="track-time">2:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lethal Poetry</span>
+          <span class="track-time">3:32</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lost Inside</span>
+          <span class="track-time">3:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Glory</span>
+          <span class="track-time">2:56</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Black Lotus</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Frozen In Time</span>
+          <span class="track-time">3:33</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Clouded</span>
+          <span class="track-time">3:10</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+          </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Loud Fantasy, Quiet Reality</h2>
+      <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="album-card">
+      <h2 class="album-title">Ghost Gardens</h2>
+      <div class="track-list">
+        <div class="track-row">
+          <span class="track-name">Rip Me Apart</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Dig</span>
+          <span class="track-time">2:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Tremor</span>
+          <span class="track-time">2:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lethal Poetry</span>
+          <span class="track-time">3:32</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Lost Inside</span>
+          <span class="track-time">3:54</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Flutter</span>
+          <span class="track-time">1:49</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Fragile Skin Of Me</span>
+          <span class="track-time">2:15</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Misery</span>
+          <span class="track-time">2:45</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">One On One</span>
+          <span class="track-time">3:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Glory</span>
+          <span class="track-time">2:56</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Black Lotus</span>
+          <span class="track-time">3:02</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Frozen In Time</span>
+          <span class="track-time">3:33</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Clouded</span>
+          <span class="track-time">3:10</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+          </div>
+          <div class="track-row">
+          <span class="track-name">Is It Victory</span>
+          <span class="track-time">2:12</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        <div class="track-row">
+          <span class="track-name">Infinity</span>
+          <span class="track-time">3:24</span>
+          <a href="#"><img src="./YouTube icon/Youtube.png" alt="YT"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
