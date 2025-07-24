@@ -7,7 +7,7 @@ document.addEventListener('click', async event => {
 
   const id = btn.dataset.id;
   if (!id) {
-    console.warn('У кнопки нет data-id');
+    console.warn('Кнопка не має data-id');
     return;
   }
 
@@ -17,7 +17,7 @@ document.addEventListener('click', async event => {
     const artist = data.artists?.[0] || data;
 
     if (!artist || !artist.strArtist) {
-      console.warn('Нет данных по артисту:', data);
+      console.warn('Немає даних щодо артиста:', data);
       return;
     }
     document.querySelector('.artist-name').textContent = artist.strArtist || '';
@@ -41,7 +41,7 @@ document.addEventListener('click', async event => {
     document.body.style.overflow = 'hidden';
 
   } catch (error) {
-    console.error('Ошибка при загрузке данных об артисте:', error);
+    console.error('Помилка при завантаженні даних про артиста:', error);
   }
 });
 
