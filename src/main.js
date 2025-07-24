@@ -1,1 +1,1 @@
-import './js/artists-section.js';
+import 'js/artists-section.js';
